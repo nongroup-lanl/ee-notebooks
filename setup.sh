@@ -1,6 +1,6 @@
 #!/bin/bash
 export GCP_PROJECT_ID=sandbox-project-207822
-export CONTAINER_IMAGE_NAME=gcr.io/earthengine-project/datalab-ee:latest
+export CONTAINER_IMAGE_NAME=ee-sandbox:python-install
 export WORKSPACE=/Users/rmsare/workspace/datalab-ee
 mkdir -p $WORKSPACE
 cd $WORKSPACE
